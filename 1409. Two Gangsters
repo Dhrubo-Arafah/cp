@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int a, b, c;
+    scanf("%d%d", &a, &b);
+    int cans=(a+b)-1;
+    printf("%d %d\n", cans-a, cans-b);
+}
